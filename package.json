@@ -1,0 +1,31 @@
+{
+  "name": "brain-games-bot",
+  "version": "1.0.0",
+  "description": "telegram bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1808Avenue/brain-games-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1808Avenue/brain-games-bot/issues"
+  },
+  "homepage": "https://github.com/1808Avenue/brain-games-bot#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "telegraf": "^4.11.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "nodemon": "^2.0.20"
+  }
+}
